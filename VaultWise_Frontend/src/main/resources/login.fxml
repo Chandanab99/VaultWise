@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="15.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.vaultwise.frontend.LoginController">
+    <Label text="VaultWise Login"/>
+    <TextField fx:id="usernameField" promptText="Username"/>
+    <TextField fx:id="passwordField" promptText="Password"/>
+    <Button text="Login" onAction="#onLogin"/>
+</VBox>

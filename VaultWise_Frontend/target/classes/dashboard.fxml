@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.vaultwise.frontend.DashboardController"
+      spacing="15" alignment="CENTER">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    
+      
+
+    <Label fx:id="welcomeLabel" style="-fx-font-size: 18px;" />
+
+    <HBox spacing="10">
+        <TextField fx:id="categoryField" promptText="Category"/>
+        <TextField fx:id="amountField" promptText="Amount"/>
+        <DatePicker fx:id="datePicker"/>
+        <Button text="Add Expense" onAction="#onAddExpense"/>
+    </HBox>
+
+    <TableView fx:id="expenseTable" prefHeight="250" prefWidth="450">
+        <columns>
+            <TableColumn fx:id="categoryCol" text="Category" />
+            <TableColumn fx:id="amountCol" text="Amount" />
+            <TableColumn fx:id="dateCol" text="Date" />
+        </columns>
+    </TableView>
+</VBox>
