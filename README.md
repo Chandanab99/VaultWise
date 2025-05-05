@@ -84,7 +84,7 @@ Authorization: Bearer <your_token>
 ## 👩‍💻 Author
 
 Developed by **Chandana B**  
-📧 chandanab@example.com  
+📧 chandanabatthala99@gmail.com  
 🔗 [LinkedIn]  www.linkedin.com/in/chandana-priya-batthala
 
 ---
